@@ -6,7 +6,7 @@
 *  It includes buttons, paragraphs and specific styling that resembles big sites like Youtube, Amazon and even GitHub.
 
 
-## Authors
+## Contact
 
 - [@poparf](https://github.com/poparf)
 - robertflorianp037@gmail.com
