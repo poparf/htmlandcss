@@ -1,0 +1,15 @@
+#name,
+#email {
+    display:block;
+    margin:5px;
+}
+
+p,
+button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ p {
+    width:200px
+ }
