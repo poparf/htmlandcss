@@ -1,11 +1,35 @@
+.name, .email {
+    border-color: grey;
+    border-radius:10px;
+    border-style: solid;
+    border-width: 2px;
+    outline: 0;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
 .name {
     display:inline block;
 }
 
 .email {
     display: block;
+    width: 340px;
 }
 
 .button {
     display: block;
+    width:350px;
+    padding-top:17px;
+    padding-bottom: 17px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: rgb(0, 106, 255);
+    color:white;
+    outline: 0;
+    border: none;
+    cursor:pointer;
 }
