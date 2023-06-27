@@ -6,5 +6,11 @@
 
 *  It includes buttons, paragraphs and specific styling that resembles big sites like Youtube, Amazon and even GitHub.
 
-* robertflorianp037@gmail.com
+
+## Authors
+
+- [@poparf](https://github.com/poparf)
+- robertflorianp037@gmail.com
+- https://www.linkedin.com/in/robert-florian-popa-3b8537260/
+
 
