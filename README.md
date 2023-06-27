@@ -1,5 +1,4 @@
-* # htmlandcss
-
+* # HTML and CSS playground
 *  Hello !
 
 *  This repository represents some simple work i did in HTML and CSS with over 1000 lines of code, mostly plain CSS in particular.
