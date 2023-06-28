@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<body>
+
+    <p>Grid is more rigide since you specify the size in the style option for the whole div. For flexbox you specify on each "div".</p>
+
+
+    <div style="display:flex; flex-direction: row;">
+        <div style="display:flexbox; background-color: lightcoral;"> 
+            div1 not paragraph
+        </div>
+        <div style="background-color: rgb(240, 227, 128);">
+            div2 <p>paragraph with margins</p>
+        </div>
+    </div>
+
+    <div style="display:flex; flex-direction: row; margin-top:30px;">
+        <div style="width:100px;background-color: lightcoral;"> 
+            div1 not paragraph
+        </div>
+        <div style="background-color: rgb(240, 227, 128); flex: 1;">
+            flex1 equivalent to fr1 from grid
+        </div>
+        <div style="flex: 2;background-color: lightcoral;"> 
+            dflex2 equivalent to fr1 fr1
+        </div>
+    </div>
+
+
+    <div style="display:flex;
+        flex-direction: row;
+        margin-top:30px;
+        height:70px; 
+        border-style: solid;
+        border-color:grey;
+        justify-content: space-between;">
+        
+        <div style="width:100px;background-color: lightcoral;"> 
+            div1 - 100px
+        </div>
+        <div style="background-color: rgb(240, 227, 128); width:100px;;">
+            div2 - 100px
+        </div>
+        <div style="width:100px;background-color: lightcoral;"> 
+            div3 - 100px
+        </div>
+    </div>
+    
+        <div style="display:flex;
+        flex-direction: row;
+        margin-top:30px;
+        height:70px; 
+        border-style: solid;
+        border-color:grey;
+        justify-content: space-between;
+        align-items: center;">
+        
+            <div style="width:100px;background-color: lightcoral;"> 
+                div1 - 100px
+            </div>
+            <div style="background-color: rgb(240, 227, 128); width:100px;;">
+                div2 - 100px
+            </div>
+            <div style="width:100px;background-color: lightcoral;"> 
+                div3 - 100px
+            </div>
+        </div>
+</body>
+</html>
