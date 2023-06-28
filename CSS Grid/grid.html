@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<body>
+    <div style="display:grid; grid-template-columns: 100px 100px;">
+        <div style="background-color: red;">
+            div1
+        </div>
+        <div style="background-color: blue;">
+            div2
+        </div>
+    </div>
+
+
+    <div style="display:grid; grid-template-columns: 100px 100px; margin-top:20px;">
+        <div style="background-color: red;">
+            div1
+        </div>
+        <div style="background-color: blue;">
+            div2
+        </div>
+        <div style="background-color: green;">
+            div3
+        </div>
+    </div>
+
+    <div style="display:grid; grid-template-columns: 200px 75px;">
+        <div style="background-color: lightcoral;">
+            200px
+        </div>
+        <div style="background-color: lightblue">
+            75px
+        </div>
+    </div>
+
+    <!-- fr represents the space that will be filled -->
+    <div style="display:grid; grid-template-columns:50px 1fr 75px;">
+        <div style="background-color: lightcoral;">
+            col1
+        </div>
+        <div style="background-color: lightblue">
+            col2
+        </div>
+        <div style="background-color: lightcoral;">
+            col3
+        </div>
+    </div>
+
+    <div style="display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; column-gap:20px; row-gap:10px; margin-top:100px;">
+        <div style="background-color: lightskyblue;">col</div>
+        <div style="background-color: lightskyblue;">col</div>
+        <div style="background-color: lightskyblue;">col</div>
+        <div style="background-color: lightskyblue;">col</div>
+        <div style="background-color: lightskyblue;">col</div>
+        <div style="background-color: lightskyblue;">col</div>
+        <div style="background-color: lightskyblue;">col</div>
+        <div style="background-color: lightskyblue;">col</div>
+
+    </div>
+</body>
+</html>
