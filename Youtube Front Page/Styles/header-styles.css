@@ -72,13 +72,30 @@
     height:43.9px;
     width:66px;
     background-color: #f8f8f8;
-    border-width: 1px;
-    border-style: solid;
-    border-color:rgb(196, 196, 196);
     margin-left: -1px;
     margin-right:10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius:10px;
+    position: relative;
+    border: 1px solid rgb(196,196,196);
+}
+
+.search-button div {
+    position: absolute;
+    background-color: grey;
+    color:white;
+    padding: 4px 8px;
+    border-radius:2px;
+    font-size:12px;
+    font-family: Roboto, Arial;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.search-button:hover div {
+    opacity: 1;
 }
 
 .search-icon {
