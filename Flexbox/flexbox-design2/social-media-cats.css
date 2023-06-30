@@ -1,0 +1,78 @@
+p {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cats-suggestions {
+    display:flex;
+    flex-direction: row;
+    width:330px;
+    padding: 5px;
+}
+
+.cat-1 {
+    width:100px;
+    border-radius:100%;
+    height:100px;
+    object-fit: cover;
+}
+
+.cat-right-section {
+        display: flex;
+    flex-direction: row;
+}
+
+.cat-info {
+    margin-left:15px;
+    width:170px;
+}
+
+
+.cat-name {
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top:5px;
+}
+
+.cat-acronym {
+    margin-bottom: 15px;
+    color: rgb(97, 96, 96);
+}
+
+.cat-status {
+    margin-bottom: 5px;
+    color:rgb(97,96,96);
+}
+
+.button-follow-container {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.button-follow {
+    margin-left:70px;
+    padding: 10px 20px;
+    border:none;
+    box-shadow:3px 3px 5px rgba(97, 96, 96, 0.289);
+    border-radius: 10px;
+    background-color: rgb(90, 200, 237);
+    color: white;
+    cursor:pointer;
+    transition: background-color 0.15s, opacity 1.15s;
+}
+
+.button-follow:hover {
+    background-color: rgb(3, 179, 238);
+}
+.button-follow:active {
+    opacity: 0.6;
+    background-color: rgba(0, 126, 168, 0.749);
+}
+
+.all-cats {
+    display:flex;
+    box-shadow: 1px 1px 10px 2px rgba(181, 181, 181, 0.615);
+    flex-direction: column;
+    width:470px;
+}

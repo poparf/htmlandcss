@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
+    <style>
+        p{
+            margin:0;
+        }
+    </style>
 </head>
 <body>
 
@@ -70,5 +75,84 @@
                 div3 - 100px
             </div>
         </div>
+
+
+        <div style="display:flex; flex-direction: row; margin-top:50px;">
+            <div style="width:200px; background-color: rgb(247, 94, 94);">
+                200px
+            </div>
+            <div style="width:75px;background-color: rgb(84, 84, 245);">
+                75px
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: row; margin-top: 50px;">
+            <div style="background-color: lightblue; width: 50px;">
+                50px
+            </div>
+            <div style="background-color: lightcoral; flex:1;">
+                remaining
+            </div>
+            <div style="background-color: lightblue; width:75px">
+                75px
+            </div>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; margin-top: 50px;">
+            <div style="background-color: lightblue;">
+1332 spread between across the page
+            </div>
+            <div style="background-color: aqua;">
+22332
+            </div>
+            <div style="background-color: blueviolet;">
+32323
+            </div>
+            <div style="background-color: chartreuse;">
+42323
+            </div>
+        </div>
+
+        <div style="display:flex; justify-content: space-between; margin-top:25px; border-style: solid; border-color:grey; height:50px; align-items: center;">
+            <div style="background-color: lightcoral;">
+                item1
+            </div>
+            <div style="background-color: lightblue;">
+                item2
+            </div>
+        </div>
+
+
+        <div style="display:flex; margin-top:100px;">
+            <div style="width:100px; background-color: lightcoral; display:flex; justify-content: center;">
+    
+                   <p style="color:white; background-color: black;">item1</p>
+
+
+            </div>
+            <div style="width:200px;  background-color: lightblue;">
+            </div>
+        
+        </div>
+
+
+
+        <div style="display:flex; margin-top:100px;">
+            <div style="background-color: lightcoral; width:100px;">
+        
+            </div>
+            <div style="display:flex; background-color: lightblue; width:200px; flex-direction: column;">
+                <p style="background-color: black; color:white; width:fit-content;">row1</p>
+                <div style="margin-bottom:10px; display:flex; flex-direction: row; justify-content: space-between;">
+                    <p style="background-color: black; color:white;">row2</p>
+                    <p style="background-color: black; color:white;">row2</p>
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
 </body>
 </html>
