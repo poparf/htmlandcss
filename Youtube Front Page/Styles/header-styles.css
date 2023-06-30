@@ -14,7 +14,9 @@
     left:0;
     right:0;
     background-color: white;
-   
+    border-bottom-style: solid;
+    border-color:rgba(221, 221, 221, 0.311);
+    border-bottom-width: 1px;
     justify-content: space-between;
 }
 
