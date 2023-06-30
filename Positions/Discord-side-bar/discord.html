@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+            padding-left:205px;
+            height:3000px;
+            width: 3000px;;
+        }
+
+        p {
+            margin:0;
+            font-family: Nunito Sans;
+        }
+
+        .side-bar {
+            display:flex;
+            position:fixed;
+            left:0;
+            top:0;
+            bottom:0;
+        }
+
+        img {
+            width:50px;
+            height:50px;
+            object-fit: cover;
+            border-radius:100%;
+            margin-bottom: 10px;
+            box-shadow: 1px 1px 8px 1px rgba(255, 255, 255, 0.496);
+        }
+
+        .channel-section {
+            display:flex;
+            flex-direction: column;
+            background-color: rgba(25, 25, 25, 0.989);
+            padding:15px 15px;
+        }
+
+        .info-section{
+            background-color: rgb(39, 39, 39);
+            display:flex;
+            flex-direction: column;
+            width:185px;
+            padding:15px;
+        }
+
+        .title{ 
+            color:rgb(212, 212, 212);
+            font-weight: bold;
+            margin-bottom: 7px;
+            font-size:14px;
+        }
+        span {
+            margin-left:130px;
+            color:grey;
+        }
+
+        .chs {
+            margin-bottom: 15px;
+            color:grey;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="side-bar">
+        <div class="channel-section">
+            <img class="channel-img-1" src="cat_img/cat-avatar1.jpg">
+            <img class="channel-img-2" src="cat_img/cat-avatar2.jpeg">
+            <img class="channel-img-3" src="cat_img/cat-avatar3.jpg">
+        </div>
+        <div class="info-section">
+            <p class="title">INFO <span>+</span></p>
+            <p class="chs"># new-videos</p>
+            <p class="chs"># updates</p>
+            <p class="chs"># faq</p>
+        </div>
+    </div>
+</body>
+</html>
