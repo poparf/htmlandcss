@@ -130,3 +130,9 @@
     border-radius:100%;
     margin:2px 2px;
 }
+
+@media (min-width:1200px) {
+    .videos {
+        margin-left:120px;
+    }
+}
