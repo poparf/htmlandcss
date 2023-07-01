@@ -15,16 +15,23 @@
         <div class="header">
             <div class="left-section">
                 <img class="hamburger-menu" src="Images/icons/hamburger-menu.svg">
-                <img class="youtube-logo" src="Images/icons/youtube-logo.svg">
+                <a href="https://www.youtube.com/" target="_blank"><img class="youtube-logo" src="Images/icons/youtube-logo.svg"></a>
             </div>
             <div class="middle-section">
-                <input type="text" class="search-bar" placeholder="Search">
-                <button class="search-button">
-                    <img class="search-icon" src="Images/icons/search.svg">
-                    <div>Search</div>
-                </button>
+                <!--https://www.youtube.com/results?search_query=test-->
+                <form action="https://www.youtube.com/results">
+                    <input type="text" class="search-bar" placeholder="Search" name="search_query">
+                    <button class="search-button" type="submit" value="Youtube search">
+                        <img class="search-icon" src="Images/icons/search.svg">
+                        <div>Search</div>
+                    </button>
+                </form>
+
                 <button class="voice-search-button">
                     <img class="voice-search-icon" src="Images/icons/voice-search-icon.svg">
+                    <div class="info-display">
+                        Search with your voice
+                    </div>
                 </button>
             </div>
             <div class="right-section">
@@ -38,7 +45,10 @@
                     <img class="notifications-icon" src="Images/icons/notifications.svg">
                     <div class="notifications-count">9</div>
                 </div>
-                <img class="avatar-icon" src="Images/Avatar.jpg">
+                <div class="avatar-container">
+                    <a class="avatar-link" href="https://www.linkedin.com/in/robert-florian-popa-3b8537260/"><img class="avatar-icon" src="Images/Avatar.jpg"></a>
+                    <div class="hire-me">Hire me</div>
+                </div>
             </div>
             
         </div>

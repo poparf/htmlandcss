@@ -1,4 +1,9 @@
-
+form {
+    flex: 1;
+    min-width: 200px;
+    display:flex;
+    align-items: center;
+}
 
 .search-bar::placeholder {
     font-family: Roboto, Arial;
@@ -45,10 +50,12 @@
     height:24px;
     margin-left:24px;
     margin-right: 24px;
+    cursor:pointer;
 }
 
 .youtube-logo {
     height:20px;
+    cursor:pointer;
 }
 
 .search-bar {
@@ -78,6 +85,7 @@
     border-bottom-right-radius:10px;
     position: relative;
     border: 1px solid rgb(196,196,196);
+    cursor:pointer;
 }
 
 .search-button div {
@@ -111,6 +119,27 @@
     border-radius:100%;
     border:none;
     background-color: #f8f8f8;
+    position:relative;
+    cursor: pointer;
+}
+
+.voice-search-button:hover .info-display {
+    opacity:1;
+}
+.info-display {
+    position: absolute;
+    background-color: grey;
+    color:white;
+    padding: 4px 8px;
+    width:120px;
+    border-radius:2px;
+    font-size:12px;
+    font-family: Roboto, Arial;
+    bottom: -20px;
+    left:-35px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
 }
 
 .voice-search-icon {
@@ -129,19 +158,16 @@
 }
 
 
-.upload-icon{
+.upload-icon, .notifications-icon,.apps-icon{
     height:25px;
+    cursor:pointer;
+    border-radius: 100%;
+    padding:5px;
+}
+.upload-icon:hover, .apps-icon:hover, .notifications-icon:hover{
+    background-color: #dadada;
 }
 
-.apps-icon {
-    height:25px;
-
-}
-
-.notifications-icon {
-    height:25px;
-    
-}
 
 .notifications-container {
     position:relative;
@@ -150,8 +176,8 @@
 
 .notifications-count {
     position:absolute;
-    top:-3px;
-    right:-3px;
+    top:2px;
+    right:2px;
     background-color: rgb(189, 0, 0);
     color:white;
     font-family: Roboto, Arial;
@@ -167,5 +193,26 @@
     border-radius:100%;
     margin-right:10px;
     object-fit: cover;
-   
+    cursor: pointer;   
+    position: relative;  
+}
+
+
+.hire-me {
+    position: absolute;
+    background-color: grey;
+    color:white;
+    padding: 4px 8px;
+    border-radius:2px;
+    font-size:12px;
+    font-family: Roboto, Arial;
+    bottom: -12px;
+    right:10px;
+    opacity: 0;
+    transition: opacity 0.15s;
+
+}
+
+.avatar-container:hover .hire-me{
+    opacity: 1;
 }
